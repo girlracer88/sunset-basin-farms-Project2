@@ -1,0 +1,154 @@
+/* ===== Sunset Basin Farms Project 2 Styles ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #4a6b46;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 2.4rem;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #3e5d3b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: white;
+  color: #3e5d3b;
+}
+
+/* MAIN */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #4a6b46;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* FORM STYLING */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4a6b46;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #385737;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4a6b46;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
